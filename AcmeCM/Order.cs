@@ -25,6 +25,8 @@ public class Order
         return new List<Order>();
     }
 
+    public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
+
     public bool Validate()
     {
         var isValid = true;

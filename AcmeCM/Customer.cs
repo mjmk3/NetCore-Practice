@@ -45,6 +45,8 @@ public class Customer
         return new List<Customer>();
     }
 
+    public override string ToString() => FullName;
+
     public bool Validate()
     {
         var isValid = true;

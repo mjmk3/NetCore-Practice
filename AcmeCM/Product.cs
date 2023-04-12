@@ -23,6 +23,8 @@ public class Product
         return new List<Product>();
     }
 
+    public override string ToString() => ProductName;
+
     public bool Validate()
     {
         var isValid = true;
