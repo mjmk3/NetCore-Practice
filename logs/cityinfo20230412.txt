@@ -1,0 +1,78 @@
+2023-04-12 10:16:20.309 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-12 10:16:20.587 +03:00 [DBG] Hosting starting
+2023-04-12 10:16:21.068 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 325659C05479014FBBF36C2654D923E9A63CF4E5)
+2023-04-12 10:16:21.149 +03:00 [INF] Now listening on: https://localhost:7101
+2023-04-12 10:16:21.151 +03:00 [INF] Now listening on: http://localhost:5001
+2023-04-12 10:16:21.152 +03:00 [DBG] Loaded hosting startup assembly CityInfoAPI
+2023-04-12 10:16:21.153 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-12 10:16:21.154 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-12 10:16:21.155 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-12 10:16:21.156 +03:00 [INF] Hosting environment: Development
+2023-04-12 10:16:21.157 +03:00 [INF] Content root path: C:\Users\mohamed.makki\Documents\MJ\CS\CityInfoAPI\
+2023-04-12 10:16:21.157 +03:00 [DBG] Hosting started
+2023-04-12 10:16:21.232 +03:00 [DBG] Connection id "0HMPR4N8IQ6DV" accepted.
+2023-04-12 10:16:21.232 +03:00 [DBG] Connection id "0HMPR4N8IQ6E0" accepted.
+2023-04-12 10:16:21.235 +03:00 [DBG] Connection id "0HMPR4N8IQ6E0" started.
+2023-04-12 10:16:21.235 +03:00 [DBG] Connection id "0HMPR4N8IQ6DV" started.
+2023-04-12 10:16:23.056 +03:00 [DBG] Connection id "0HMPR4N8IQ6E1" accepted.
+2023-04-12 10:16:23.058 +03:00 [DBG] Connection id "0HMPR4N8IQ6E1" started.
+2023-04-12 10:16:23.062 +03:00 [DBG] Connection id "0HMPR4N8IQ6E2" accepted.
+2023-04-12 10:16:23.063 +03:00 [DBG] Connection id "0HMPR4N8IQ6E2" started.
+2023-04-12 10:16:23.154 +03:00 [DBG] Connection id "0HMPR4N8IQ6E2" received FIN.
+2023-04-12 10:16:23.166 +03:00 [DBG] Connection 0HMPR4N8IQ6E1 established using the following protocol: "Tls13"
+2023-04-12 10:16:23.166 +03:00 [DBG] Connection 0HMPR4N8IQ6E2 established using the following protocol: "Tls13"
+2023-04-12 10:16:23.191 +03:00 [DBG] Connection id "0HMPR4N8IQ6E2" is closed. The last processed stream ID was 0.
+2023-04-12 10:16:23.193 +03:00 [DBG] Connection id "0HMPR4N8IQ6E2" sending FIN because: "The client closed the connection."
+2023-04-12 10:16:23.207 +03:00 [DBG] Connection id "0HMPR4N8IQ6E2" stopped.
+2023-04-12 10:16:23.247 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2023-04-12 10:16:23.307 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-12 10:16:23.478 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-12 10:16:23.812 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-12 10:16:23.820 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 577.3078ms
+2023-04-12 10:16:23.852 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2023-04-12 10:16:23.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.9598ms
+2023-04-12 10:16:23.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2023-04-12 10:16:23.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.7075ms
+2023-04-12 10:16:24.196 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2023-04-12 10:16:24.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.6779ms
+2023-04-12 10:16:28.424 +03:00 [DBG] Connection id "0HMPR4N8IQ6E1" received FIN.
+2023-04-12 10:16:28.427 +03:00 [DBG] Connection id "0HMPR4N8IQ6E1" is closed. The last processed stream ID was 7.
+2023-04-12 10:16:28.428 +03:00 [DBG] Connection id "0HMPR4N8IQ6E1" sending FIN because: "The client closed the connection."
+2023-04-12 10:16:28.438 +03:00 [DBG] Connection id "0HMPR4N8IQ6E1" stopped.
+2023-04-12 10:16:31.428 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-04-12 10:16:31.428 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-04-12 10:16:31.430 +03:00 [DBG] Connection id "0HMPR4N8IQ6DV" stopped.
+2023-04-12 10:16:31.431 +03:00 [DBG] Connection id "0HMPR4N8IQ6E0" stopped.
+2023-04-12 10:16:31.432 +03:00 [DBG] Connection id "0HMPR4N8IQ6DV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-12 10:16:31.435 +03:00 [DBG] Connection id "0HMPR4N8IQ6E0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-12 10:16:50.448 +03:00 [DBG] Connection id "0HMPR4N8IQ6E3" accepted.
+2023-04-12 10:16:50.450 +03:00 [DBG] Connection id "0HMPR4N8IQ6E3" started.
+2023-04-12 10:16:50.460 +03:00 [DBG] Connection 0HMPR4N8IQ6E3 established using the following protocol: "Tls13"
+2023-04-12 10:16:50.468 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7101/api/Cities - -
+2023-04-12 10:16:50.478 +03:00 [DBG] The request path  does not match the path filter
+2023-04-12 10:16:50.548 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Cities'
+2023-04-12 10:16:50.559 +03:00 [DBG] Endpoint 'CityInfoAPI.Controllers.CitiesController.GetCities (CityInfoAPI)' with route pattern 'api/Cities' is valid for the request path '/api/Cities'
+2023-04-12 10:16:50.563 +03:00 [DBG] Request matched endpoint 'CityInfoAPI.Controllers.CitiesController.GetCities (CityInfoAPI)'
+2023-04-12 10:16:50.574 +03:00 [INF] Executing endpoint 'CityInfoAPI.Controllers.CitiesController.GetCities (CityInfoAPI)'
+2023-04-12 10:16:50.617 +03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfoAPI.Models.CityDTO]] GetCities() on controller CityInfoAPI.Controllers.CitiesController (CityInfoAPI).
+2023-04-12 10:16:50.623 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-12 10:16:50.627 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-12 10:16:50.632 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-12 10:16:50.637 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-12 10:16:50.639 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-12 10:16:50.643 +03:00 [DBG] Executing controller factory for controller CityInfoAPI.Controllers.CitiesController (CityInfoAPI)
+2023-04-12 10:16:50.651 +03:00 [DBG] Executed controller factory for controller CityInfoAPI.Controllers.CitiesController (CityInfoAPI)
+2023-04-12 10:16:50.661 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-04-12 10:16:50.675 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-04-12 10:16:50.680 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-04-12 10:16:50.684 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-04-12 10:16:50.685 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-04-12 10:16:50.689 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-04-12 10:16:50.692 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfoAPI.Models.CityDTO, CityInfoAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-12 10:16:51.213 +03:00 [INF] Executed action CityInfoAPI.Controllers.CitiesController.GetCities (CityInfoAPI) in 563.8854ms
+2023-04-12 10:16:51.219 +03:00 [INF] Executed endpoint 'CityInfoAPI.Controllers.CitiesController.GetCities (CityInfoAPI)'
+2023-04-12 10:16:51.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7101/api/Cities - - - 200 1060 application/json;+charset=utf-8 752.6992ms
+2023-04-12 10:16:53.465 +03:00 [DBG] Connection id "0HMPR4N8IQ6E3" received FIN.
+2023-04-12 10:16:53.468 +03:00 [DBG] Connection id "0HMPR4N8IQ6E3" is closed. The last processed stream ID was 1.
+2023-04-12 10:16:53.471 +03:00 [DBG] Connection id "0HMPR4N8IQ6E3" sending FIN because: "The client closed the connection."
+2023-04-12 10:16:53.479 +03:00 [DBG] Connection id "0HMPR4N8IQ6E3" stopped.
