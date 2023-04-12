@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "AcmeCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AcmeCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcmeCommon.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AcmeCommon/1.0.0": {
+      "type": "project",
+      "path": "../AcmeCommon/AcmeCommon.csproj",
+      "msbuildProject": "../AcmeCommon/AcmeCommon.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "AcmeCommon >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mohamed.makki\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCommon\\AcmeCommon.csproj": {
+              "projectPath": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCommon\\AcmeCommon.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

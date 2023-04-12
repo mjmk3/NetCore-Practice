@@ -1,6 +1,8 @@
-﻿namespace AcmeCM;
+﻿using AcmeCommon;
 
-public sealed class Customer
+namespace AcmeCM;
+
+public sealed class Customer : EntityBase, ILoggable
 {
     public Customer() : this(0)
     {
@@ -45,9 +47,20 @@ public sealed class Customer
         return new List<Customer>();
     }
 
+    // public string Log()
+    // {
+    //     var logString = CustomerId + ": " +
+    //                     FullName + " " +
+    //                     "Email: " + EmailAddress + " " +
+    //                     "Status: " EntityState.ToString();
+    //     return logString;
+    // }
+
+    public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
+    
     public override string ToString() => FullName;
 
-    public bool Validate()
+    public override bool Validate()
     {
         var isValid = true;
 

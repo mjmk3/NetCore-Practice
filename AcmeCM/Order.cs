@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using AcmeCommon;
 
 namespace AcmeCM;
 
-public class Order
+public class Order: EntityBase, ILoggable
 {
     public Order() : this (0)
     {
@@ -25,9 +25,10 @@ public class Order
         return new List<Order>();
     }
 
+    public string Log() => $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EntityState.ToString()}";
     public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
 
-    public bool Validate()
+    public override bool Validate()
     {
         var isValid = true;
 
