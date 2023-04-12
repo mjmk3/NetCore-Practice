@@ -21,6 +21,27 @@ public class ProductRepository
     
     public bool Save(Product product)
     {
-        return true;
+        var success = true;
+
+        if (product.HasChanges)
+        {
+            if (product.IsValid)
+            {
+                if (product.IsNew)
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+            else
+            {
+                success = false;
+            }
+        }
+        
+        return success;
     }
 }

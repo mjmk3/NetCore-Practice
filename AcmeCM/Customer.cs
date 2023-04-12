@@ -1,6 +1,6 @@
 ﻿namespace AcmeCM;
 
-public class Customer
+public sealed class Customer
 {
     public Customer() : this(0)
     {
