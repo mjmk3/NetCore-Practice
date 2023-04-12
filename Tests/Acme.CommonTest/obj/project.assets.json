@@ -974,6 +974,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "AcmeCM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AcmeCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AcmeCM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcmeCM.dll": {}
+        }
+      },
       "AcmeCommon/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3957,6 +3970,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "AcmeCM/1.0.0": {
+      "type": "project",
+      "path": "../../AcmeCM/AcmeCM.csproj",
+      "msbuildProject": "../../AcmeCM/AcmeCM.csproj"
+    },
     "AcmeCommon/1.0.0": {
       "type": "project",
       "path": "../../AcmeCommon/AcmeCommon.csproj",
@@ -3965,6 +3983,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AcmeCM >= 1.0.0",
       "AcmeCommon >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
@@ -4000,6 +4019,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCM\\AcmeCM.csproj": {
+              "projectPath": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCM\\AcmeCM.csproj"
+            },
             "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCommon\\AcmeCommon.csproj": {
               "projectPath": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCommon\\AcmeCommon.csproj"
             }
