@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "AcmeCM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AcmeCM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcmeCM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcmeCM/1.0.0": {
+      "type": "project",
+      "path": "../../AcmeCM/AcmeCM.csproj",
+      "msbuildProject": "../../AcmeCM/AcmeCM.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AcmeCM >= 1.0.0",
+      "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "NUnit >= 3.13.3",
+      "NUnit.Analyzers >= 3.5.0",
+      "NUnit3TestAdapter >= 4.3.0",
+      "coverlet.collector >= 3.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mohamed.makki\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\Tests\\AcmeCM.Test\\AcmeCM.Test.csproj",
+      "projectName": "AcmeCM.Test",
+      "projectPath": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\Tests\\AcmeCM.Test\\AcmeCM.Test.csproj",
+      "packagesPath": "C:\\Users\\mohamed.makki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\Tests\\AcmeCM.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mohamed.makki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCM\\AcmeCM.csproj": {
+              "projectPath": "C:\\Users\\mohamed.makki\\Documents\\MJ\\CS\\AcmeCM\\AcmeCM\\AcmeCM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.3.2, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.13.3, )"
+          },
+          "NUnit.Analyzers": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "NUnit"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "NUnit3TestAdapter"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "NUnit.Analyzers"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "coverlet.collector"
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NET.Test.Sdk with version (>= 17.3.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 16.11.0 ]\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit3TestAdapter. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit.Analyzers. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "NUnit.Analyzers",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package coverlet.collector with version (>= 3.1.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 3.0.3 ]\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\bin\Debug\net7.0\AcmeCM.deps.json
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\bin\Debug\net7.0\AcmeCM.dll
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\bin\Debug\net7.0\AcmeCM.pdb
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.csproj.AssemblyReference.cache
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.AssemblyInfoInputs.cache
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.AssemblyInfo.cs
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.csproj.CoreCompileInputs.cache
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.dll
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\refint\AcmeCM.dll
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\AcmeCM.pdb
+C:\Users\mohamed.makki\Documents\MJ\CS\AcmeCM\AcmeCM\obj\Debug\net7.0\ref\AcmeCM.dll
